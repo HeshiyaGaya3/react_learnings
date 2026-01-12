@@ -1,0 +1,22 @@
+.Karthik {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+}
+
+.Heshiya{
+    background-color: rgb(144, 89, 239);
+    width: 100px;
+    height: 100px;
+}
+
+.papa{
+    background-color: rgb(232, 32, 243);
+    width: 100px;
+    height: 100px;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+}

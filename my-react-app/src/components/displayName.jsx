@@ -4,10 +4,12 @@ import Form from "./form";
 export default function DisplayName({ name }) {
 
     return (
-        <>
-        <p>{name}</p>
-        <Form/> 
-        </>
+        <div>
+                <p>{name}</p>
+                <Form/> 
+        </div>
+        
+        
             
     
         
