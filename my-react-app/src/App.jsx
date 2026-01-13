@@ -15,6 +15,8 @@ import Task7 from "./components/task7";
 import Task8 from "./components/task8";
 import Task9 from "./components/task9";
 import Task10 from "./components/task10";
+import Task11 from "./components/task11";
+
 
 
 
@@ -45,7 +47,8 @@ function App() {
         <Link to="/task7">Task7</Link> | 
         <Link to="/task8">Task8</Link> |
         <Link to="/task9">Task9</Link> |
-        <Link to="/task10">Task10</Link>
+        <Link to="/task10">Task10</Link>  |
+        <Link to="/task11">Task11</Link> 
       </nav>
       <Routes>
         <Route path="/" element={<><h1>Vite + React</h1><p className="read-the-docs">Click on the Vite and React logos to learn more</p></>} />
@@ -61,6 +64,7 @@ function App() {
         <Route path="/task8" element={<Task8 />} />
         <Route path="/task9" element={<Task9/>} /> 
         <Route path="/task10" element={<Task10/>} />
+        <Route path="/task11" element={<Task11/>} />
       </Routes>
     </>
   );
